@@ -1,0 +1,147 @@
+* {
+	outline: none;
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	color: #fff;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+html {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #fff;
+	font-family: SFProDisplay, sans-serif;
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+	.container {
+	    max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+	    max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+	    max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+	    max-width: 1140px;
+	}
+}
+
+.container {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Шрифты */
+
+@font-face {
+ font-family: SFProDisplay-Medium;
+ src: url(fonts/SFProDisplay-Medium.ttf);
+}
+@font-face {
+ font-family: SFProDisplay-Semibold;
+ src: url(fonts/SFProDisplay-Semibold.ttf);
+}
+@font-face {
+ font-family: SFProDisplay-Bold;
+ src: url(fonts/SFProDisplay-Bold.ttf);
+}
+
+
+/* Typography */
+
+h1 {
+	font-family: SFProDisplay-Bold;
+	font-size: 36px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+
+
+/* Buttons */
+
+a.btn-black {
+	border-radius: 5px;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+	background-color: #000000;
+	display: inline-block;
+	padding: 12px 16px;
+
+	font-family: SFProDisplay-Medium;
+	font-size: 16px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.25;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	transition: .2s ease-out;
+}
+
+a.btn-black:hover{
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(38, 38, 38, 0.8);
+}
+
+
+a.btn-orange {
+	border-radius: 5px;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  	background-color: #ffc31e;
+	display: inline-block;
+	padding: 12px 16px;
+
+	font-family: SFProDisplay-Medium;
+	font-size: 16px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.25;
+	letter-spacing: normal;
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+	transition: .2s ease-out;
+}
+
+a.btn-orange:hover{
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(157, 107, 2, 0.8);
+}
